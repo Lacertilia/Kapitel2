@@ -9,10 +9,16 @@ public class Lektion2{
         String adress = "Hemma";
         String tfn = "0776969699";
         String info = name + "\n" + adress + "\n" + tfn;
-        JOptionPane.showMessageDialog(null, info);*/
+        JOptionPane.showMessageDialog(null, info);
         String firstname = JOptionPane.showInputDialog(null, "Ditt f" + '\u00F6' + "rnamn?");
         String lastname = JOptionPane.showInputDialog(null, "Ditt efternamn?");
         String fullname = firstname + " " + lastname;
-        JOptionPane.showMessageDialog(null, "Du heter " + fullname + " :)");
+        JOptionPane.showMessageDialog(null, "Du heter " + fullname + " :)");*/
+        char stort = '\u00D8';
+        char litet = '\u00F8';
+        char pi = '\u03C0';
+        JOptionPane.showMessageDialog(null, stort);
+        JOptionPane.showMessageDialog(null, litet);
+        JOptionPane.showMessageDialog(null, pi);
     }
 }
