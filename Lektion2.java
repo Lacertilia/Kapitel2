@@ -1,5 +1,8 @@
 import javax.swing.*;
-
+/*Rasmus Mattas
+Skriver ut ditt namn efter du skrivit det.
+18/9-17
+*/
 public class Lektion2{
     public static void main(String[] args) {
         /*String name = "Rasmus";
