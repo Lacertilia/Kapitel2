@@ -19,9 +19,16 @@ public class Lektion2{
         char pi = '\u03C0';
         JOptionPane.showMessageDialog(null, stort);
         JOptionPane.showMessageDialog(null, litet);
-        JOptionPane.showMessageDialog(null, pi);*/
+        JOptionPane.showMessageDialog(null, pi);
         String a = "Programspråk";
         String b = a.charAt(1) + a.substring(5, 8) + a.charAt(5);
+        JOptionPane.showMessageDialog(null, b);*/
+        String a, b;
+        a = "Erik Andersson 860314-2714";
+        int d1 = a.indexOf('1');
+        int d2 = a.indexOf('-');
+        int m1 = a.indexOf('0');
+        b = a.substring(d1, d2) + "/" + a.substring(m1, d1);
         JOptionPane.showMessageDialog(null, b);
         }
 }
