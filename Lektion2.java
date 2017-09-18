@@ -13,12 +13,15 @@ public class Lektion2{
         String firstname = JOptionPane.showInputDialog(null, "Ditt f" + '\u00F6' + "rnamn?");
         String lastname = JOptionPane.showInputDialog(null, "Ditt efternamn?");
         String fullname = firstname + " " + lastname;
-        JOptionPane.showMessageDialog(null, "Du heter " + fullname + " :)");*/
+        JOptionPane.showMessageDialog(null, "Du heter " + fullname + " :)");
         char stort = '\u00D8';
         char litet = '\u00F8';
         char pi = '\u03C0';
         JOptionPane.showMessageDialog(null, stort);
         JOptionPane.showMessageDialog(null, litet);
-        JOptionPane.showMessageDialog(null, pi);
-    }
+        JOptionPane.showMessageDialog(null, pi);*/
+        String a = "Programspråk";
+        String b = a.charAt(1) + a.substring(5, 8) + a.charAt(5);
+        JOptionPane.showMessageDialog(null, b);
+        }
 }
